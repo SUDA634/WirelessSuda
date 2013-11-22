@@ -86,6 +86,7 @@
 		04FFBB3A183A401E00BA9199 /* ConsumptionCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFBB39183A401E00BA9199 /* ConsumptionCellView.m */; };
 		04FFBB3D183B99DD00BA9199 /* ChangePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFBB3C183B99DD00BA9199 /* ChangePasswordView.m */; };
 		04FFBB40183BBA5600BA9199 /* BindPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFBB3F183BBA5600BA9199 /* BindPhoneView.m */; };
+		04FFBB44183CFDE600BA9199 /* CheckNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFBB43183CFDE600BA9199 /* CheckNetWork.m */; };
 		7532E620182F9FEC00498BB0 /* GateWayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E61F182F9FEC00498BB0 /* GateWayViewController.m */; };
 		7532E6D51831379A00498BB0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7532E6D41831379A00498BB0 /* 2.png */; };
 		7532E6F318314E6F00498BB0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E6F218314E6F00498BB0 /* MBProgressHUD.m */; };
@@ -260,6 +261,8 @@
 		04FFBB3C183B99DD00BA9199 /* ChangePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordView.m; sourceTree = "<group>"; };
 		04FFBB3E183BBA5600BA9199 /* BindPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindPhoneView.h; sourceTree = "<group>"; };
 		04FFBB3F183BBA5600BA9199 /* BindPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindPhoneView.m; sourceTree = "<group>"; };
+		04FFBB42183CFDE600BA9199 /* CheckNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckNetWork.h; sourceTree = "<group>"; };
+		04FFBB43183CFDE600BA9199 /* CheckNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckNetWork.m; sourceTree = "<group>"; };
 		7532E61E182F9FEC00498BB0 /* GateWayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GateWayViewController.h; sourceTree = "<group>"; };
 		7532E61F182F9FEC00498BB0 /* GateWayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GateWayViewController.m; sourceTree = "<group>"; };
 		7532E6D41831379A00498BB0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -293,8 +296,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FFBB36183A39B900BA9199 /* QuartzCore.framework in Frameworks */,
 				755B69BD1833CF50007DBEAE /* SystemConfiguration.framework in Frameworks */,
+				04FFBB36183A39B900BA9199 /* QuartzCore.framework in Frameworks */,
 				755B69BB1833CF48007DBEAE /* MobileCoreServices.framework in Frameworks */,
 				755B69B91833CF3A007DBEAE /* libz.dylib in Frameworks */,
 				755B69B71833CF24007DBEAE /* CFNetwork.framework in Frameworks */,
@@ -386,13 +389,6 @@
 				0415644C18339B5A00892EF1 /* UIView+Screenshot.m */,
 			);
 			path = JWFolders;
-			sourceTree = "<group>";
-		};
-		041564511833A99100892EF1 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		041564581833AD0700892EF1 /* ASIHTTPRequest */ = {
@@ -614,6 +610,15 @@
 			name = CardCustomView;
 			sourceTree = "<group>";
 		};
+		04FFBB41183CFDD200BA9199 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04FFBB42183CFDE600BA9199 /* CheckNetWork.h */,
+				04FFBB43183CFDE600BA9199 /* CheckNetWork.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		7532E61D182F9FEC00498BB0 /* GateWay */ = {
 			isa = PBXGroup;
 			children = (
@@ -694,7 +699,7 @@
 		755E149618043D8D00C7925B /* wirelessuda */ = {
 			isa = PBXGroup;
 			children = (
-				041564511833A99100892EF1 /* Common */,
+				04FFBB41183CFDD200BA9199 /* Common */,
 				04BFC707181C847F00B1CF88 /* Modules */,
 				04740F35181B90990057B109 /* Images */,
 				04740F1E181B86710057B109 /* CustomView */,
@@ -903,6 +908,7 @@
 				04FFBB3D183B99DD00BA9199 /* ChangePasswordView.m in Sources */,
 				041564BD1833B93F00892EF1 /* SBJsonStreamParserState.m in Sources */,
 				041489CF182DD26C00BC5B0B /* GateWayLoginViewController.m in Sources */,
+				04FFBB44183CFDE600BA9199 /* CheckNetWork.m in Sources */,
 				04FFBB2E183A30DE00BA9199 /* ChangeCardPasswordViewController.m in Sources */,
 				041564791833AD0700892EF1 /* ASIHTTPRequest.m in Sources */,
 				04740F13181B85100057B109 /* SDWebImageCompat.m in Sources */,
