@@ -110,6 +110,8 @@
 		7560B399183F5E41003F34E8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7560B398183F5E41003F34E8 /* 1.png */; };
 		7560B39C183F80B0003F34E8 /* BindPhoneVaildata.m in Sources */ = {isa = PBXBuildFile; fileRef = 7560B39B183F80B0003F34E8 /* BindPhoneVaildata.m */; };
 		75E21F0C183CE20800EEE74A /* GateWayVaildata.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E21F0B183CE20800EEE74A /* GateWayVaildata.m */; };
+		E52912C618434E92004DB961 /* 2013-2014苏大校历2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52912C418434E92004DB961 /* 2013-2014苏大校历2.jpg */; };
+		E52912C718434E92004DB961 /* 2013-2014苏大校历1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52912C518434E92004DB961 /* 2013-2014苏大校历1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -297,6 +299,8 @@
 		7560B39B183F80B0003F34E8 /* BindPhoneVaildata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindPhoneVaildata.m; sourceTree = "<group>"; };
 		75E21F0A183CE20800EEE74A /* GateWayVaildata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GateWayVaildata.h; sourceTree = "<group>"; };
 		75E21F0B183CE20800EEE74A /* GateWayVaildata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GateWayVaildata.m; sourceTree = "<group>"; };
+		E52912C418434E92004DB961 /* 2013-2014苏大校历2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2013-2014苏大校历2.jpg"; sourceTree = "<group>"; };
+		E52912C518434E92004DB961 /* 2013-2014苏大校历1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2013-2014苏大校历1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -720,6 +724,8 @@
 				04740F27181B86870057B109 /* WLSudaMainViewController.h */,
 				04740F28181B86870057B109 /* WLSudaMainViewController.m */,
 				755E14A218043D8D00C7925B /* Images.xcassets */,
+				E52912C418434E92004DB961 /* 2013-2014苏大校历2.jpg */,
+				E52912C518434E92004DB961 /* 2013-2014苏大校历1.jpg */,
 				7532E6D41831379A00498BB0 /* 2.png */,
 				7560B398183F5E41003F34E8 /* 1.png */,
 				755E149718043D8D00C7925B /* Supporting Files */,
@@ -854,11 +860,13 @@
 				041009511835035400BA4835 /* login_bg_ip5@2x.jpg in Resources */,
 				04740F42181B90DC0057B109 /* weather.png in Resources */,
 				755E14A318043D8D00C7925B /* Images.xcassets in Resources */,
+				E52912C618434E92004DB961 /* 2013-2014苏大校历2.jpg in Resources */,
 				04740F3E181B90DC0057B109 /* calendar.png in Resources */,
 				041009581835035400BA4835 /* return18.png in Resources */,
 				04740F3F181B90DC0057B109 /* card.png in Resources */,
 				041564781833AD0700892EF1 /* ASIHTTPRequest-Info.plist in Resources */,
 				041009541835035400BA4835 /* login_textfield.png in Resources */,
+				E52912C718434E92004DB961 /* 2013-2014苏大校历1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
