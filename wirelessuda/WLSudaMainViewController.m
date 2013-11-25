@@ -12,6 +12,7 @@
 #import "GateWayViewController.h"
 #import "CardLoginViewController.h"
 #import "CalendarMainViewController.h"
+#import "WLMianBusViewController.h"
 
 @interface WLSudaMainViewController ()
 
@@ -116,12 +117,18 @@
             break;
         case 2:
         {
+            WLMianBusViewController *bus = [[WLMianBusViewController alloc] init];
+            [self.navigationController pushViewController:bus animated:YES];
+            self.navigationController.navigationBar.hidden=NO;
             //班车路线
         }
             break;
         case 3:
         {
-            c
+            CalendarMainViewController *cal = [[CalendarMainViewController alloc] init];
+            [self.navigationController pushViewController:cal animated:YES];
+            self.navigationController.navigationBar.hidden=NO;
+            
             //苏大校历
         }
             break;
